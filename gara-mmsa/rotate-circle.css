@@ -5,7 +5,7 @@
   left: 157px;
   top: 701px;
 	-webkit-animation: rotate-center 5s steps(55, start) infinite both;
-  animation: rotate-center 5s steps(55, start) infinite both;
+  animation: rotate-center 5s steps(35, start) infinite both;
 }
 
 @-webkit-keyframes rotate-center {
