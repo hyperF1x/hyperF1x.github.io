@@ -1,6 +1,7 @@
 .txt-version{
+    position: relative;
     color: #fefbfb;
-    bottom: 2.7%;
+    bottom: 20;
     left: 35%;
     font-size: large;
 }
