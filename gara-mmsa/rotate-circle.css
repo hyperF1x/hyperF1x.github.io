@@ -1,9 +1,9 @@
 .rotate-circle {  
   position: absolute;
-  width: 304;
+  width: 514;
   height: auto;
-  left: 83px;
-  top: 390px;
+  left: 157px;
+  top: 701px;
 	-webkit-animation: rotate-center 5s steps(55, start) infinite both;
   animation: rotate-center 5s steps(55, start) infinite both;
 }
