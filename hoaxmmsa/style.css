@@ -29,3 +29,11 @@ img {
     background-color: #b22d2e;
     text-align: center;
 }
+
+.circle {
+    padding-top: 21.7%;
+    width: 65.5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
