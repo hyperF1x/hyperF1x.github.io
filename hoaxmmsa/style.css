@@ -1,0 +1,21 @@
+html { 
+    background: url(bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+img {    
+    display: -webkit-flex;
+    width: 100%;
+    height: auto;
+}
+
+.bg {
+    margin: 0;
+}
+
+.bg_user_out {
+    height: 14.5em;
+}
