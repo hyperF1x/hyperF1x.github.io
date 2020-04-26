@@ -1,8 +1,6 @@
 .rotate-circle {
-  height:auto;
-
-  max-width: 65%;
-	-webkit-animation: rotate-center 5s steps(55, start) infinite both;
+  max-width: 100%;
+  -webkit-animation: rotate-center 5s steps(55, start) infinite both;
   animation: rotate-center 5s steps(35, start) infinite both;
 }
 
@@ -26,4 +24,3 @@
     transform: rotate(360deg);
   }
 }
-  

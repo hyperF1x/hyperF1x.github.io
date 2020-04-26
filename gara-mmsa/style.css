@@ -1,28 +1,55 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btn_menu {
+  position: absolute;
+  width: 50px;
+  width: 150px;
+  height: 43px;
+  opacity:80;
+}
+
 .circle {
+    align-items: center;
+    margin-left: 17.5%;
     position: relative;
-    left: 17.5%;
+    width: 65%;
     bottom: -42.2%;
 }
 
-
-.txt_version {
-    position: relative;
-    color: #fefbfb;
-    bottom: 25;
-    left: 147;
-    font-size: large;
+.txt {
 }
 
 .txt_date {
+  position: absolute;
+  color: #fefbfb;
+  bottom: 38%;
+  padding-left: 44.5%;
+  font-size: 1.2em;
+}
+
+.txt_time  {
     position: absolute;
     color: #fefbfb;
-    bottom: 335;
-    left: 50%;
-    font-size: 1.3em;
+    bottom: 35.2%;
+    padding-left: 39.5%;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+}
+
+.txt_version {
+    color: #fefbfb;
+    position: absolute;
+    bottom: 3.5%;
+    padding-left: 36.5%;
+    font-size: 1em;
 }
 
 .background {
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
