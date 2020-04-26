@@ -1,7 +1,30 @@
-.txt-version{
+.circle {
+    position: relative;
+    left: 17.5%;
+    bottom: -42.2%;
+}
+
+
+.txt_version {
     position: relative;
     color: #fefbfb;
-    bottom: -6%;
-    left: 35%;
+    bottom: 25;
+    left: 147;
     font-size: large;
+}
+
+.txt_date {
+    position: absolute;
+    color: #fefbfb;
+    bottom: 335;
+    left: 50%;
+    font-size: 1.3em;
+}
+
+.background {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image:url(bg.png);
 }

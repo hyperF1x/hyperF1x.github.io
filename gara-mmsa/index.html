@@ -3,13 +3,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>가라모바일보안</title>
-
     
     <meta name="robots" content="noimageindex, noarchive">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#ffffff">
-    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.01, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 
     <link rel="manifest" href="/favicon/manifest.json">
 
@@ -22,14 +21,19 @@
     <link rel="stylesheet" sype="text/css" href = "rotate-circle.css">
 </head>
 
-<body style="margin: 0px;background: #282828;" font-family: 'Apple SD Gothic'>
-    <div id="front">
-        <div class="img_progress_circle" style="position: absolute;">
-            <img src="img_progress_circle.png" class="rotate-circle">
-        </div>
-        <div class="txt-version" style="position: absolute;">
-            Version 1.0.06
-        </div>
+<body style="margin: 0px;background: #282828;" font-family: 'Apple SD Gothic'>    
+    <div class="circle">
+        <img src="img_progress_circle.png" style="position: absolute;" class="rotate-circle">
     </div>
-    <img src="bg.png" height="896" weight="414"/>
+    
+    <div class="txt_version" style="position: absolute;">
+        Version 1.0.06
+    </div>
+
+    <div class="txt_date" style="position: absolute; text-align: center;">
+        <script type="text/javascript" src="getDate.js"></script>
+        일
+    </div>    
+
+    <div class="background"></div>
 </body>
