@@ -7,10 +7,11 @@ body {
 
 .btn_menu {
   position: absolute;
-  width: 50px;
-  width: 150px;
-  height: 43px;
-  opacity:80;
+  width: 51px;
+  padding-top: 44px;
+  padding-left: 24px;
+  border: 0;
+  background-color: transparent;
 }
 
 .circle {
@@ -27,7 +28,7 @@ body {
 .txt_date {
   position: absolute;
   color: #fefbfb;
-  bottom: 38%;
+  top: 59%;
   padding-left: 44.5%;
   font-size: 1.2em;
 }
@@ -35,7 +36,7 @@ body {
 .txt_time  {
     position: absolute;
     color: #fefbfb;
-    bottom: 35.2%;
+    top: 61.8%;
     padding-left: 39.5%;
     letter-spacing: 3px;
     font-size: 1.2em;
@@ -44,7 +45,7 @@ body {
 .txt_version {
     color: #fefbfb;
     position: absolute;
-    bottom: 3.5%;
+    top: 95%;
     padding-left: 36.5%;
     font-size: 1em;
 }
