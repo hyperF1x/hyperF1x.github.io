@@ -5,7 +5,13 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+    font-size: 10px;
+}
+
+body {
+    font-family: '애플 SD 산돌고딕 Neo','Apple SD Gothic Neo','Helvetica Neue','Helvetica','나눔바른고딕','NanumBarunGothic','나눔바른고딕OTF','NanumBarunGothicOTF','Noto Sans','Noto+Sans','notokr-demilight','나눔고딕','NanumGothic','맑은 고딕','Malgun Gothic','sans-serif';
+    color: #fffdfa;
+}
 
 img {    
     display: -webkit-flex;
@@ -17,23 +23,44 @@ img {
     margin: 0;
 }
 
+.btn_menu {    
+    position: absolute;
+    font-size: 1.5rem;
+    top: 5.4%;
+    left: 5.9%;
+    width: 12.2vw;
+    height: 3.9vh;
+    color: #fffdfa;
+    box-sizing: border-box;
+    border: 1.1px solid #fffdfa;
+    border-radius: 7px;
+    background-color: transparent;
+}
+
+.camera_block {
+    background-image: url(img/camera_block.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
 .block_date {
-    padding-top: 35%;
-    font-size: 1.45em;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 19.4%;
+    left: 50%;
+    width: fit-content;
+    font-size: 2.64vh;
 }
 
 .bg_user_out {
     width: 100%;
-    height: 232px;
-    color: #fffdfa;
-    background-color: #b22d2e;
+    height: 26vh;
     text-align: center;
+    background-color: #b22d2e;
 }
 
 .circle {
-    padding-top: 21.7%;
-    width: 65.5%;
-    left: 0;
-    right: 0;
+    position: absolute;
     margin: auto;
 }

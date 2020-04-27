@@ -20,29 +20,34 @@
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="icon" href="img/favicon.ico">
 
-    	
+    <script src="getDate.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="circle_rotate.css">
   </head>
 
   <body class="bg">
-    <header class="bg_user">
+    <header>
+      <input class="btn_menu" type="button" name="btn_menu" value="메뉴">    
       <div class="bg_user_out">
-        <img src="img/mnsa_logo.png" style="width: 13.85%;position: absolute;top: 4.5%;left: 0;right: 0;margin:auto;">
         <div class="block_date">
-          설치일시 : 20.01.10 20:29
-          <br>
+          설치일시 : 20.01.10 20:29<br>          
           차단일시 : 20.01.12 20:42
         </div>
       </div>      
       <img src="img/bg_user_out_sub.png">
     </header>
 
-    <nav class="bg_camera">
-      <img src="img/camera_block.png" style="position: absolute; width: 50%;padding-top: 29.4%; left: 0;right: 0;margin: auto;">
-      <div class="circle">
+    <nav class="bg_camera" style="text-align: center;"> 
+      <div style="width: 65vw; margin: auto; padding-top: 10vh;">
         <img class="circle_rotate" src="img/progress_circle.png">
-      </div>      
-    </nav>
-  </body>  
+        <div class="camera_block">
+          
+      <div>
+        <script>getDate('2020-01-12');</script>
+      </div>
+        </div>
+      </div>
+    </div>      
+  </nav>
+</body>  
 </html>
