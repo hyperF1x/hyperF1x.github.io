@@ -32,9 +32,13 @@ img {
     height: 6.5vh;
     font-size: 4vw;
     border-radius: 30px;
+    color: #fffdfa;
     box-sizing: border-box;
     border: 2.1px solid #422e28;
     background-color: #5a433d;
+}
+.btn_deny:active {
+    background-color: #483631;
 }
 
 .btn_menu {    
@@ -49,6 +53,9 @@ img {
     border: 1.1px solid #fffdfa;
     border-radius: 7px;
     background-color: transparent;
+}
+.btn_menu:active{
+    background-color: #0000005a;
 }
 
 .block_date {
