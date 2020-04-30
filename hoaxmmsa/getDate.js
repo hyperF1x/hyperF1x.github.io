@@ -10,3 +10,14 @@ function getDate(dateString) {
     document.write(Math.floor(betweenDay));
     document.write(" 일");
 }
+
+function getTime() {
+    let old = new Date(2020, 01, 12, 20, 42);
+    old = old.getTime();
+    let now = new Date().getTime();
+
+    let date = new Date(now - old);
+    date.format('hh:mm');    
+
+    document.write(date);
+}

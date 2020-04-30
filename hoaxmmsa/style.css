@@ -1,6 +1,6 @@
 html { 
     background-color: #232124;
-    background: url(bg.png) no-repeat center center fixed; 
+    /* background: url(bg.png) no-repeat center center fixed;  */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -23,6 +23,19 @@ img {
     margin: 0;
 }
 
+.btn_deny {
+    text-align: center;
+    line-height: 6vh;
+    margin: auto;
+    width: 90%;
+    height: 6.5vh;
+    font-size: 4vw;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: 2.1px solid #422e28;
+    background-color: #5a433d;
+}
+
 .btn_menu {    
     position: absolute;
     font-size: 1.5rem;
@@ -35,12 +48,6 @@ img {
     border: 1.1px solid #fffdfa;
     border-radius: 7px;
     background-color: transparent;
-}
-
-.camera_block {
-    background-image: url(img/camera_block.png);
-    background-size: 50%;
-    background-repeat: no-repeat;
 }
 
 .block_date {
