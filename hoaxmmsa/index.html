@@ -20,13 +20,16 @@
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="icon" href="img/favicon.ico">
 
-    <script src="getDate.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="getDate.js">
+      getTime(20, 42);
+    </script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="circle_rotate.css">
   </head>
 
   <body class="bg">
-    <header>
+    <header style="background-color: #232124;">
       <input class="btn_menu" type="button" name="btn_menu" value="메뉴">    
       <img src="img/mnsa_logo.png" style="width: 13.85%;position: absolute;top: 4.5%;left: 0;right: 0;margin:auto;">
       <div class="bg_user_out">
@@ -38,12 +41,14 @@
       <img src="img/bg_user_out_sub.png">
     </header>
 
-    <nav class="bg_camera" style="text-align: center;"> 
+    <nav class="bg_camera" style="text-align: center;height: 61.5vh;background-color: #232124;">  
       <div style="width: 65vw; margin: auto; padding-top: 10vh;">        
         <img src="img/camera_block.png" style="position: absolute;margin: 7.5%;width: 50%;">
-        <div style="position: absolute;padding-top: 11%;margin: 25%;font-size: 5.5vw;">
-          <script>getDate('2020-01-12');</script>
-        </div>      
+        <div style="position: absolute;padding-top: 17%;margin: 19%;font-size: 5.5vw;letter-spacing: 3px;">
+          <script>document.write(getDate('2020-01-12') + "일<br>");</script>
+          <span id="time">00:00:00</span>
+          <script>getTime(20, 42);</script>
+        </div>
         <img class="circle_rotate" src="img/progress_circle.png">
       </div>
       <div style="padding-top: 28%;">
@@ -52,9 +57,6 @@
         </div>
       </div>
     </nav>
-
-    <footer style="margin-top: 2.3vh;">
-      <div style="background-color: #19171a;box-sizing: content-box;width: 100%;height: 6.0125vh;"></div>
-    </footer>
+    <footer style="width: 100%;height: 6.278vh;"></footer>
 </body>
 </html>

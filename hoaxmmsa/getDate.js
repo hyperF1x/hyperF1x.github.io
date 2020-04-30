@@ -7,17 +7,27 @@ function getDate(dateString) {
 
     var betweenDay = (today.getTime() - dateObj.getTime())/1000/60/60/24;
 
-    document.write(Math.floor(betweenDay));
-    document.write(" 일");
+    return Math.floor(betweenDay);
 }
 
-function getTime() {
-    let old = new Date(2020, 01, 12, 20, 42);
-    old = old.getTime();
-    let now = new Date().getTime();
+function getTime(hour, minutes) {         
+    timer = setInterval(() => {
+        let old = new Date(00, 0, 0, hour, minutes);
+        old = old.getTime();
+        let now = new Date().getTime();
 
-    let date = new Date(now - old);
-    date.format('hh:mm');    
+        let date = new Date(now - old);
+        let hh = date.getHours();
+        let mm = date.getMinutes();
+        let ss = date.getSeconds();
 
-    document.write(date);
+        if(hh < 10)
+            hh = "0" + hh;
+        if(mm < 10)
+            mm = "0" + mm;
+        if(ss < 10)
+            ss = "0" + ss;
+        
+        document.getElementById("time").innerHTML = hh + ":" + mm + ":" + ss;
+    }, 1000);    
 }

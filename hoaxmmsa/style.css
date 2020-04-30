@@ -1,11 +1,12 @@
 html { 
-    background-color: #232124;
+    background-color: #19171a;
     /* background: url(bg.png) no-repeat center center fixed;  */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-size: 10px;
+    overflow: hidden;
 }
 
 body {
