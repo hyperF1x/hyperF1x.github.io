@@ -25,6 +25,7 @@ img {
 }
 
 .btn_deny {
+    -webkit-appearance: none;
     text-align: center;
     line-height: 6vh;
     margin: auto;
@@ -36,7 +37,7 @@ img {
     box-sizing: border-box;
     border: 2.1px solid #422e28;
     background-color: #5a433d;
-    -webkit-appearance: none;
+    
 }
 .btn_deny:active {
     background-color: #483631;
