@@ -6,6 +6,7 @@
 
     <!-- 애플 웹앱용 -->
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="국방모바일보안">
     <meta name="apple-mobile-web-app-orientations" content="portrait">
@@ -43,8 +44,10 @@
     <nav class="bg_camera" style="text-align: center;height: 61.5vh;background-color: #232124;">  
       <div style="width: 65vw; margin: auto; padding-top: 10vh;">        
         <img src="img/camera_block.png" style="position: absolute;margin: 7.5%;width: 50%;">
-        <div style="position: absolute;padding-top: 17%;margin: 19%;font-size: 5.5vw;letter-spacing: 3px;">
-          <script>document.write(getDate('2020-01-12') + "일<br>");</script>
+        <div style="position: absolute;padding-top: 12%;margin: 24%;font-size: 5.5vw;letter-spacing: 3px;">
+          <script>document.write(getDate('2020-01-12') + "일<br>");</script>          
+        </div>
+        <div style="position: absolute;padding-top: 24%;margin: 19%;font-size: 5.5vw;letter-spacing: 3px;">
           <span id="time">00:00:00</span>
           <script>getTime(20, 42);</script>
         </div>
@@ -54,6 +57,6 @@
         <button type="button" class="btn_deny">카메라 허용</button>
       </div>
     </nav>
-    <footer style="width: 100%;height: 6.278vh;"></footer>
+    <footer style="width: 100%;height: 6.278vh;text-align: center;font-size: 3.8vw;padding-top: 2vw;">Version 1.0.06</footer>
 </body>
 </html>
