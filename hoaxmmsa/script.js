@@ -1,3 +1,11 @@
+function openNav() {
+    document.getElementById("slidemenu").style.width = "250px";
+}
+  
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
 function getDate(dateString) {
     var today = new Date();
 
