@@ -1,3 +1,7 @@
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
 html { 
     background-color: #19171a;
     /* background: url(bg.png) no-repeat center center fixed;  */
@@ -38,6 +42,9 @@ img {
     background-color: transparent;
     border: none;
 }
+.btn_alert:active {
+    background-color: #0000005a;
+}
 
 .btn_deny {
     -webkit-appearance: none;
@@ -60,7 +67,6 @@ img {
 }
 
 .btn_menu {
-    -webkit-touch-callout: ;
     position: absolute;
     font-size: 1.5rem;
     top: 5.4%;
@@ -97,10 +103,4 @@ img {
 .circle {
     position: absolute;
     margin: auto;
-}
-
-@media (max-width: 991px) {
-    *::-webkit-scrollbar {
-        width: 0px;
-    }    
 }
