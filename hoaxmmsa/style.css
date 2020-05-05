@@ -46,6 +46,22 @@ img {
     background-color: #0000005a;
 }
 
+#slidemenu {
+	-webkit-animation: slide-right 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-right 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.sidebox {    
+    width: 0px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+    overflow-x: hidden;
+    transition: 0.5s;    
+}
+
 .btn_deny {
     -webkit-appearance: none;
     text-align: center;

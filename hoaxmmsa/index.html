@@ -21,8 +21,7 @@
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="icon" href="img/favicon.ico">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="getDate.js">
+    <script src="script.js">
       getTime(20, 42);
     </script>
     <link rel="stylesheet" href="style.css">
@@ -30,8 +29,12 @@
   </head>
 
   <body style="margin: 0;" oncontextmenu='return false' onselectstart='return false' ondragstart='return false' ontouchstart="">
+    <div id="slidemenu" class="sidebox">
+      a
+    </div>
+
     <header style="background-color: #232124;">
-      <button class="btn_menu" type="button">메뉴</button>
+      <button class="btn_menu" type="button" onclick="openNav();">메뉴</button>
       <button type="button" class="btn_alert"><img src="img/common_btn_alert.png"></button>      
       <img src="img/mnsa_logo.png" style="width: 13.85%;position: absolute;top: 4.5%;left: 0;right: 0;margin:auto;">
       <div class="bg_user_out">
