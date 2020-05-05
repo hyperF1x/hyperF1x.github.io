@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="circle_rotate.css">
   </head>
 
-  <body style="margin: 0;" oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
+  <body style="margin: 0;" oncontextmenu='return false' onselectstart='return false' ondragstart='return false' ontouchstart="">
     <header style="background-color: #232124;">
       <input class="btn_menu" type="button" name="btn_menu" value="메뉴">
       <button type="button" class="btn_alert"><img src="img/common_btn_alert.png"></button>      
@@ -47,7 +47,8 @@
       <div style="width: 65vw; margin: auto; padding-top: 10vh;">        
         <img src="img/camera_block.png" style="position: absolute;margin: 7.5%;width: 50%;">
         <div style="position: absolute;padding-left: 1%;padding-top: 12%;margin: 24%;font-size: 5.5vw;letter-spacing: 3px;">
-          <script>document.write(getDate('2020-01-12') + "일<br>");</script>          
+          <span id="pastDay">000 일</span>
+          <script>getDate('2020-01-12');</script>
         </div>
         <div style="position: absolute;padding-left: 1%;padding-top: 24%;margin: 19%;font-size: 5.5vw;letter-spacing: 3px;">
           <span id="time">00:00:00</span>
