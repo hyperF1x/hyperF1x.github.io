@@ -1,9 +1,11 @@
 function openNav() {
-    document.getElementById("slidemenu").style.width = "250px";
+    document.getElementById("sidenav").style.width = "250px";
+    document.getElementById('close_sidenav').style.visibility = "visible";
 }
   
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("sidenav").style.width = "0";
+    document.getElementById('close_sidenav').style.visibility = "hidden";
 }
 
 function getDate(dateString) {
