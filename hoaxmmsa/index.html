@@ -11,6 +11,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="국방모바일보안">
     <meta name="apple-mobile-web-app-orientations" content="portrait">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 
     <!-- 애플 웹앱 스플래쉬 -->
     <link rel="apple-touch-startup-image" href="img/splash.png" />
@@ -29,14 +30,31 @@
   </head>
 
   <body style="margin: 0;" oncontextmenu='return false' onselectstart='return false' ondragstart='return false' ontouchstart="">
-    <div id="sidenav" class="sidebox">
+		<script>
+		document.body.addEventListener('touchmove', function(event) {
+		  event.preventDefault();
+		}, {
+		  passive: false,
+		  useCapture: false
+		});
+
+		window.onresize = function() {
+		  $(document.body).width(window.innerWidth).height(window.innerHeight);
+		}
+
+		$(function() {
+		  window.onresize();
+		});
+	</script>
+	
+	<div id="sidenav" class="sidebox">
     </div>
     <div id="close_sidenav" onclick="closeNav();"></div>
 
     <header style="background-color: #232124;">
       <button class="btn_menu" type="button" onclick="openNav();">메뉴</button>
       <button type="button" class="btn_alert"><img src="img/common_btn_alert.png"></button>      
-      <img src="img/mnsa_logo.png" style="width: 13.85%;position: absolute;top: 4.5%;left: 0;right: 0;margin:auto;">
+      <img src="img/mnsa_logo.png" style="width: 13.85%;position: absolute;top: 4.7%;left: 0;right: 0;margin:auto;">
       <div class="bg_user_out">
         <div class="block_date" style="font-weight: 600;">
           설치일시 : 20.01.10 20:29<br>          
@@ -63,6 +81,6 @@
         <button type="button" class="btn_deny">카메라 허용</button>
       </div>
     </nav>
-    <footer style="width: 100%;height: 5.357vh;text-align: center;font-size: 3.8vw;padding-top: 2vw;color: #d2d2d2;">Version 1.0.06</footer>
+    <footer style="width: 100%;height: 5.357vh;text-align: center;font-size: 3.8vw;padding-top: 3vw;color: #d2d2d2;">Version 1.0.06</footer>
 </body>
 </html>
