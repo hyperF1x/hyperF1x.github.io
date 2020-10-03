@@ -35,7 +35,7 @@ img {
 .btn_alert {
     width: 12.85%;
     position: absolute;
-    top: 5.2%;
+    top: 5.9%;
     left: 80vw;
     right: 0;
     margin: auto;
@@ -88,9 +88,9 @@ img {
 .btn_menu {
     position: absolute;
     font-size: 3.3vw;
-    top: 5.5%;
+    top: 6.0%;
     left: 6.9%;
-    width: 11.5vw;
+    width: 13.0vw;
     height: 3.9vh;
     color: #fffdfa;
     box-sizing: border-box;
@@ -106,7 +106,7 @@ img {
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     position: absolute;
-    top: 19.4%;
+    top: 20.8%;
     left: 50%;
     width: fit-content;
     font-size: 2.64vh;
