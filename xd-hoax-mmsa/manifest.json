@@ -1,0 +1,35 @@
+{
+	"dir" : "ltr",
+	"lang" : "Korean",
+	"name" : "국방모바일보안",
+	"scope" : "/hoaxmmsa/",
+	"display" : "standalone",
+	"start_url" : "https://hyperf1x.github.io/hoaxmmsa/",
+	"short_name" : "국방모바일보안",
+	"theme_color" : "rgba(0,0,0,0.5)",
+	"description" : "",
+	"orientation" : "portrait",
+	"background_color" : "transparent",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"icons" : [
+		{
+			"src": "https://hyperf1x.github.io/hoaxmmsa/hoaxmmsa/img/favicon.ico",
+			"sizes": "16x16"
+		},
+		{
+			"src": "https://hyperf1x.github.io/hoaxmmsa/img/icon.png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "https://hyperf1x.github.io/hoaxmmsa/img/icon.png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "https://hyperf1x.github.io/hoaxmmsa/hoaxmmsa/img/favicon.ico",
+			"sizes": "16x16"
+		}],
+	"url" : "https://hyperf1x.github.io/hoaxmmsa",
+	"screenshots" : [],
+	"generated" : "true"
+}
