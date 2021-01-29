@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang= "ko">
+  <head>
+    <meta charset="utf-8">
+    <title>구라모바일보안</title>
+
+    <!-- 애플 웹앱용 -->
+    <link rel='manifest' href='/manifest.json'>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="국방모바일보안">
+    <meta name="apple-mobile-web-app-orientations" content="portrait">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+
+    <!-- 애플 웹앱 스플래쉬 -->
+    <link rel="apple-touch-startup-image" href="img/splash.png" />
+
+    <!-- 아이콘 설정 -->
+    <link rel="apple-touch-icon-precomposed" href="img/icon.png"/>
+    <link rel="apple-touch-icon" href="img/icon.png"/>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="icon" href="img/favicon.ico">
+
+    <script src="js/script.js">
+      getTime(20, 42);
+    </script>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/beacon.css"/>
+<link rel="stylesheet" type="text/css" href="css/buttons.css"/>
+<link rel="stylesheet" type="text/css" href="css/sideMenu.css"/>
+<link rel="stylesheet" type="text/css" href="css/circle_rotate.css"/>
+<script type="text/javascript" src="js/buttons.js"></script>
+</head>
+<body>
+<div id="index">
+	<div id="side_menu">
+		<svg class="bg">
+			<rect id="bg" rx="0" ry="0" x="0" y="0" width="322" height="896">
+			</rect>
+		</svg>
+		<div id="btn_x" onclick="closeMenu()">
+			<svg class="x_line2" viewBox="0 0 17 17">
+				<path id="x_line2" d="M 17 0 L 0 17">
+				</path>
+			</svg>
+			<svg class="x_line1" viewBox="0 0 17 17">
+				<path id="x_line1" d="M 0 0 L 17 17">
+				</path>
+			</svg>
+		</div>
+		<div id="title_sysinfo">
+			<svg class="rect_appinfo">
+				<rect id="rect_appinfo" rx="0" ry="0" x="0" y="0" width="321" height="43">
+				</rect>
+			</svg>
+			<div id="app_info">
+				<span>앱 정보</span>
+			</div>
+		</div>
+		<div id="title_appinfo">
+			<svg class="sysinfo_bg">
+				<rect id="sysinfo_bg" rx="0" ry="0" x="0" y="0" width="321" height="43">
+				</rect>
+			</svg>
+			<div id="title_sysinfo_q">
+				<span>시스템 정보</span>
+			</div>
+		</div>
+		<div id="btn_1" onclick="openGuide()">
+			<svg class="rect_guide">
+				<rect id="rect_guide" rx="0" ry="0" x="0" y="0" width="322" height="48">
+				</rect>
+			</svg>
+			<div id="text_guide">
+				<span>사용가이드</span>
+			</div>
+			<svg class="path3" viewBox="-71.09 320.538 7.996 16.466">
+				<path id="path3" d="M -71.08986663818359 320.5377197265625 L -63.09423446655273 328.9291687011719 L -71.08986663818359 337.0039672851563">
+				</path>
+			</svg>
+			<svg class="path2" viewBox="-347.411 322.505 10.048 12.545">
+				<path id="path2" d="M -337.3631591796875 322.5045776367188 L -346.2539672851563 322.5045776367188 C -346.2539672851563 322.5045776367188 -347.4109802246094 323.5973205566406 -347.4109802246094 324.1487731933594 C -347.4109802246094 324.7002258300781 -346.2539672851563 325.7929382324219 -346.2539672851563 325.7929382324219 L -337.3631591796875 325.7929382324219 L -337.3631591796875 335.0491333007813 L -345.4014282226563 335.0491333007813 L -347.4109802246094 333.4658203125 L -347.4109802246094 325.7929382324219">
+				</path>
+			</svg>
+			<svg class="path1" viewBox="-345.158 324.088 6.759 1">
+				<path id="path1" d="M -345.1578369140625 324.0878601074219 L -338.3984069824219 324.0878601074219">
+				</path>
+			</svg>
+		</div>
+		<div id="btn_2" onclick="openLog()">
+			<svg class="bg_y">
+				<rect id="bg_y" rx="0" ry="0" x="0" y="0" width="322" height="48">
+				</rect>
+			</svg>
+			<div id="title_log">
+				<span>로그보기</span>
+			</div>
+			<svg class="icon_" viewBox="-71.09 320.538 7.996 16.466">
+				<path id="icon_" d="M -71.08986663818359 320.5377197265625 L -63.09423446655273 328.9291687011719 L -71.08986663818359 337.0039672851563">
+				</path>
+			</svg>
+			<div id="icon_log">
+				<svg class="line_log3" viewBox="0 0 7 1">
+					<path id="line_log3" d="M 7 0 L 0 0">
+					</path>
+				</svg>
+				<svg class="circle_log3">
+					<ellipse id="circle_log3" rx="0.5" ry="0.5" cx="0.5" cy="0.5">
+					</ellipse>
+				</svg>
+				<svg class="line_log2" viewBox="0 0 7 1">
+					<path id="line_log2" d="M 7 0 L 0 0">
+					</path>
+				</svg>
+				<svg class="circle_log2">
+					<ellipse id="circle_log2" rx="0.5" ry="0.5" cx="0.5" cy="0.5">
+					</ellipse>
+				</svg>
+				<svg class="line_log1" viewBox="0 0 7 1">
+					<path id="line_log1" d="M 7 0 L 0 0">
+					</path>
+				</svg>
+				<svg class="circle_log1">
+					<ellipse id="circle_log1" rx="0.5" ry="0.5" cx="0.5" cy="0.5">
+					</ellipse>
+				</svg>
+			</div>
+		</div>
+		<div id="btn_3">
+			<svg class="bg_">
+				<rect id="bg_" rx="0" ry="0" x="0" y="0" width="322" height="61">
+				</rect>
+			</svg>
+			<div id="title_mic">
+				<span>음성알림</span>
+			</div>
+			<div id="desc_mic">
+				<span>차단 또는 허용시 음성 알림</span>
+			</div>
+			
+			<label class="switch" style="left: 78%;top: 21%;">
+				<input type="checkbox">
+				<span class="slider round"></span>
+			  </label>
+			<div id="icon_mic">
+				<svg class="path_mic1" viewBox="-344.763 425.906 4.829 9.183">
+					<path id="path_mic1" d="M -344.7625122070313 427.8063354492188 C -344.7625122070313 427.8063354492188 -343.6563110351563 425.9064025878906 -342.1500854492188 425.9064025878906 C -340.6438598632813 425.9064025878906 -339.9334716796875 427.8063354492188 -339.9334716796875 427.8063354492188 L -339.9334716796875 433.3478698730469 C -339.9334716796875 433.3478698730469 -340.8019714355469 435.0895080566406 -342.1500854492188 435.0895080566406 C -343.4981994628906 435.0895080566406 -344.7625122070313 433.3478698730469 -344.7625122070313 433.3478698730469 L -344.7625122070313 427.8063354492188 Z">
+					</path>
+				</svg>
+				<svg class="path_mic2" viewBox="-347.296 432.5 10.133 5.123">
+					<path id="path_mic2" d="M -347.2957763671875 432.5 C -347.2957763671875 432.5 -347.1433715820313 437.6227722167969 -342.3875732421875 437.6227722167969 C -337.6317749023438 437.6227722167969 -337.1626892089844 432.5 -337.1626892089844 432.5">
+					</path>
+				</svg>
+				<svg class="line_mic" viewBox="0 0 1 3">
+					<path id="line_mic" d="M 0 0 L 0 3">
+					</path>
+				</svg>
+				<svg class="path_mic3" viewBox="-344.969 439.959 5.035 1">
+					<path id="path_mic3" d="M -339.9334716796875 439.9585571289063 L -344.9686584472656 439.9585571289063">
+					</path>
+				</svg>
+			</div>
+		</div>
+		<div id="btn_4">
+			<svg class="bg_bl">
+				<rect id="bg_bl" rx="0" ry="0" x="0" y="0" width="322" height="61">
+				</rect>
+			</svg>
+			<div id="title_vibrate">
+				<span>진동알림</span>
+			</div>
+			<div id="desc_vibrate">
+				<span>차단 또는 허용시 진동 알림</span>
+			</div>
+			<label class="switch" style="left: 78%;top: 23%;">
+				<input type="checkbox" checked>
+				<span class="slider round"></span>
+			</label>
+			<img id="icon_phone" src="icon_phone.png" srcset="icon_phone.png 1x">
+				
+		</div>
+		<div id="btn_5">
+			<svg class="bg_bt">
+				<rect id="bg_bt" rx="0" ry="0" x="0" y="0" width="322" height="48">
+				</rect>
+			</svg>
+			<svg class="icon_check" viewBox="-349.275 592.232 6.65 4.354">
+				<path id="icon_check" d="M -349.2750549316406 593.9734497070313 L -346.9001159667969 596.5858764648438 L -342.6252136230469 592.2318115234375">
+				</path>
+			</svg>
+			<div id="title_manufacture">
+				<span>제조사</span>
+			</div>
+			<div id="manufacture">
+				<span>Apple</span>
+			</div>
+		</div>
+		<div id="btn_6">
+			<svg class="bg_by">
+				<rect id="bg_by" rx="0" ry="0" x="0" y="0" width="322" height="48">
+				</rect>
+			</svg>
+			<svg class="icon_check_bz" viewBox="-349.275 592.232 6.65 4.354">
+				<path id="icon_check_bz" d="M -349.2750549316406 593.9734497070313 L -346.9001159667969 596.5858764648438 L -342.6252136230469 592.2318115234375">
+				</path>
+			</svg>
+			<div id="title_modelname">
+				<span>모델명</span>
+			</div>
+			<div id="modelname">
+				<span>iPhone XR</span>
+			</div>
+		</div>
+		<div id="btn_7">
+			<svg class="bg_b">
+				<rect id="bg_b" rx="0" ry="0" x="0" y="0" width="322" height="48">
+				</rect>
+			</svg>
+			<svg class="icon_check_b" viewBox="-349.275 592.232 6.65 4.354">
+				<path id="icon_check_b" d="M -349.2750549316406 593.9734497070313 L -346.9001159667969 596.5858764648438 L -342.6252136230469 592.2318115234375">
+				</path>
+			</svg>
+			<div id="title_osver">
+				<span>OS버전</span>
+			</div>
+			<div id="osversion">
+				<span>13.5.5</span>
+			</div>
+		</div>
+		<img id="side_logo" src="side_logo.png" srcset="side_logo.png 1x">
+			
+	</div>
+	<div id="home">		
+		<svg class="bg_ca" onclick="closeMenu()">
+			<rect id="bg_ca" rx="0" ry="0" x="0" y="0" width="414" height="896">
+			</rect>
+		</svg>
+		<div id="yellow_rect">
+			<img id="bg_user_soldier_sub" src="bg_user_soldier_sub.png" srcset="bg_user_soldier_sub.png 1x">
+				
+			<svg class="yellow_rect_cc">
+				<rect id="yellow_rect_cc" rx="0" ry="0" x="0" y="0" width="414" height="234">
+				</rect>
+			</svg>
+		</div>
+		<div id="install_date">
+			<span>설치일시: 20.05.23 00:00</span>
+		</div>
+		<div id="block_date">
+			<span>차단일시: 20.05.24 20:54</span>
+		</div>
+		<div id="btn_menu" onclick="openMenu()">
+			<svg class="rect_menu">
+				<rect id="rect_menu" rx="5" ry="5" x="0" y="0" width="50" height="34">
+				</rect>
+			</svg>
+			<div id="menu">
+				<span>메뉴</span>
+			</div>
+		</div>
+		<img id="mnsa_logo" src="mnsa_logo.png" srcset="mnsa_logo.png 1x">
+			
+		<img id="common_btn_alert" src="common_btn_alert.png" srcset="common_btn_alert.png 1x">
+			
+		<img id="camera_block" src="camera_block.png" srcset="camera_block.png 1x">
+			
+		<div id="blocked_date">
+			<div id="day">
+				<span>7일</span>
+				<script>getDate('2020-05-24');</script>
+			</div>
+			<div id="time">
+				<span>21:48:46</span>
+				<script>getTime(20, 54);</script>
+			</div>
+		</div>
+		<img class="circle_rotate" id="progress_circle" src="progress_circle.png" srcset="progress_circle.png 1x">
+			
+		<div id="btn_allow" onclick="openBeacon()">
+			<svg class="rect_btn_allow">
+				<rect id="rect_btn_allow" rx="27" ry="27" x="0" y="0" width="374" height="56">
+				</rect>
+			</svg>
+			<div id="txt_allow">
+				<span>카메라 허용</span>
+			</div>
+		</div>
+		<div id="Version">
+			<svg class="rect_version">
+				<rect id="rect_version" rx="0" ry="0" x="0" y="0" width="414" height="38">
+				</rect>
+			</svg>
+			<div id="version_text">
+				<span>Version 2.0.01</span>
+			</div>
+		</div>
+	</div>
+	<div id="beacon" style="display: none;">
+		<svg class="bg_dim">
+			<rect id="bg_dim" rx="0" ry="0" x="0" y="0" width="414" height="896">
+			</rect>
+		</svg>
+		<div id="msg_box">
+			<svg class="bg_msg">
+				<rect id="bg_msg" rx="15" ry="15" x="0" y="0" width="270" height="205">
+				</rect>
+			</svg>
+			<div id="lines">
+				<div id="lines_0" class="">
+					<svg class="l1">
+						<rect id="l1" rx="3" ry="3" x="0" y="0" width="6" height="48">
+						</rect>
+					</svg>
+				</div>
+				<div id="lines_1" class="">
+					<svg class="l1_c">
+						<rect id="l1_c" rx="3" ry="3" x="0" y="0" width="6" height="48">
+						</rect>
+					</svg>
+				</div>
+				<div id="lines_2" class="">
+					<svg class="l1_da">
+						<rect id="l1_da" rx="3" ry="3" x="0" y="0" width="6" height="48">
+						</rect>
+					</svg>
+				</div>
+				<div id="lines_3" class="">
+					<svg class="l1_db">
+						<rect id="l1_db" rx="3" ry="3" x="0" y="0" width="6" height="48">
+						</rect>
+					</svg>
+				</div>
+				<div id="lines_4" class="">
+					<svg class="l1_dc">
+						<rect id="l1_dc" rx="3" ry="3" x="0" y="0" width="6" height="48">
+						</rect>
+					</svg>
+				</div>
+			</div>
+			<div id="title">
+				<span>카메라 허용</span>
+			</div>
+			<div id="discription">
+				<span>카메라 허용을 위해 비콘 장치를 인식합니다.</span>
+			</div>
+			<svg class="line" viewBox="0 0 269 1">
+				<path id="line" d="M 0 0 L 269 0">
+				</path>
+			</svg>
+			<div id="btn_cancel" onclick="closeBeacon()">
+				<div id="cancel">
+					<span>취소</span>
+				</div>
+				<svg class="btn_cancel_df">
+					<rect id="btn_cancel_df" rx="0" ry="0" x="0" y="0" width="270" height="45">
+					</rect>
+				</svg>
+			</div>			
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1346 @@
+.mediaViewInfo {
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#index {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#side_menu {
+	position: absolute;
+	width: 322px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#bg {
+	fill: rgba(37,37,37,1);
+}
+.bg {
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+}
+#btn_x {
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	left: 282.5px;
+	top: 71.5px;
+	overflow: visible;
+}
+#x_line2 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.x_line2 {
+	overflow: visible;
+	position: absolute;
+	width: 19.828px;
+	height: 19.828px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#x_line1 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.x_line1 {
+	overflow: visible;
+	position: absolute;
+	width: 19.828px;
+	height: 19.828px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#title_sysinfo {
+	position: absolute;
+	width: 321px;
+	height: 43px;
+	left: 1px;
+	top: 261px;
+	overflow: visible;
+}
+#rect_appinfo {
+	fill: rgba(24,24,24,1);
+}
+.rect_appinfo {
+	position: absolute;
+	overflow: visible;
+	width: 321px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+}
+#app_info {
+	left: 14px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 58px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(162,162,162,1);
+}
+#title_appinfo {
+	position: absolute;
+	width: 321px;
+	height: 43px;
+	left: 1px;
+	top: 527px;
+	overflow: visible;
+}
+#sysinfo_bg {
+	fill: rgba(24,24,24,1);
+}
+.sysinfo_bg {
+	position: absolute;
+	overflow: visible;
+	width: 321px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+}
+#title_sysinfo_q {
+	left: 14px;
+	top: 11px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(162,162,162,1);
+}
+#btn_1 {
+	position: absolute;
+	width: 322px;
+	height: 48px;
+	left: 0px;
+	top: 304px;
+	overflow: visible;
+}
+#rect_guide {
+	fill: rgba(255,255,255,0);
+}
+.rect_guide {
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+#text_guide {
+	left: 49px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+#path3 {
+	fill: transparent;
+	stroke: rgba(136,135,135,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.path3 {
+	overflow: visible;
+	position: absolute;
+	width: 10.804px;
+	height: 19.294px;
+	left: 295.91px;
+	top: 16.538px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#path2 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.path2 {
+	overflow: visible;
+	position: absolute;
+	width: 11.048px;
+	height: 13.545px;
+	left: 19.589px;
+	top: 18.505px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#path1 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.path1 {
+	overflow: visible;
+	position: absolute;
+	width: 6.759px;
+	height: 1px;
+	left: 21.842px;
+	top: 20.088px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#btn_2 {
+	position: absolute;
+	width: 322px;
+	height: 48px;
+	left: 0px;
+	top: 352px;
+	overflow: visible;
+}
+#bg_y {
+	fill: rgba(255,255,255,0);
+}
+.bg_y {
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+#title_log {
+	left: 49px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+#icon_ {
+	fill: transparent;
+	stroke: rgba(136,135,135,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.icon_ {
+	overflow: visible;
+	position: absolute;
+	width: 10.804px;
+	height: 19.294px;
+	left: 295.91px;
+	top: 16.538px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#icon_log {
+	position: absolute;
+	width: 9.5px;
+	height: 7px;
+	left: 20px;
+	top: 22px;
+	overflow: visible;
+}
+#line_log3 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.line_log3 {
+	overflow: visible;
+	position: absolute;
+	width: 7px;
+	height: 1px;
+	left: 2.5px;
+	top: 0.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#circle_log3 {
+	fill: rgba(255,255,255,1);
+}
+.circle_log3 {
+	position: absolute;
+	overflow: visible;
+	width: 1px;
+	height: 1px;
+	left: 0px;
+	top: 0px;
+}
+#line_log2 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.line_log2 {
+	overflow: visible;
+	position: absolute;
+	width: 7px;
+	height: 1px;
+	left: 2.5px;
+	top: 3.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#circle_log2 {
+	fill: rgba(255,255,255,1);
+}
+.circle_log2 {
+	position: absolute;
+	overflow: visible;
+	width: 1px;
+	height: 1px;
+	left: 0px;
+	top: 3px;
+}
+#line_log1 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.line_log1 {
+	overflow: visible;
+	position: absolute;
+	width: 7px;
+	height: 1px;
+	left: 2.5px;
+	top: 6.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#circle_log1 {
+	fill: rgba(255,255,255,1);
+}
+.circle_log1 {
+	position: absolute;
+	overflow: visible;
+	width: 1px;
+	height: 1px;
+	left: 0px;
+	top: 6px;
+}
+#btn_3 {
+	position: absolute;
+	width: 322px;
+	height: 61px;
+	left: 0px;
+	top: 402px;
+	overflow: visible;
+}
+#bg_ {
+	fill: rgba(255,255,255,0);
+}
+.bg_ {
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 61px;
+	left: 0px;
+	top: 0px;
+}
+#title_mic {
+	left: 49px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+#desc_mic {
+	left: 49px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(170,170,170,1);
+	letter-spacing: 0.12px;
+}
+#ios_switch {
+	position: absolute;
+	width: 55px;
+	height: 34px;
+	left: 251px;
+	top: 14px;
+	overflow: visible;
+}
+#switch_bg {
+	fill: rgba(63,63,65,1);
+}
+.switch_bg {
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 34px;
+	left: 0px;
+	top: 0px;
+}
+#switch {
+	fill: rgba(255,255,255,1);
+}
+.switch {
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	height: 30px;
+	left: 2px;
+	top: 2px;
+}
+#icon_mic {
+	position: absolute;
+	width: 10.133px;
+	height: 14.594px;
+	left: 19.704px;
+	top: 23.906px;
+	overflow: visible;
+}
+#path_mic1 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.path_mic1 {
+	overflow: visible;
+	position: absolute;
+	width: 5.829px;
+	height: 10.183px;
+	left: 2.533px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#path_mic2 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.path_mic2 {
+	overflow: visible;
+	position: absolute;
+	width: 11.131px;
+	height: 5.668px;
+	left: 0px;
+	top: 6.594px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#line_mic {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.line_mic {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 3px;
+	left: 4.796px;
+	top: 11.594px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#path_mic3 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.path_mic3 {
+	overflow: visible;
+	position: absolute;
+	width: 5.035px;
+	height: 1px;
+	left: 2.327px;
+	top: 14.052px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#btn_4 {
+	position: absolute;
+	width: 322px;
+	height: 61px;
+	left: 0px;
+	top: 465px;
+	overflow: visible;
+}
+#bg_bl {
+	fill: rgba(255,255,255,0);
+}
+.bg_bl {
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 61px;
+	left: 0px;
+	top: 0px;
+}
+#title_vibrate {
+	left: 49px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+#desc_vibrate {
+	left: 49px;
+	top: 35px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(170,170,170,1);
+	letter-spacing: 0.12px;
+}
+#ios_switch_bo {
+	position: absolute;
+	width: 55px;
+	height: 34px;
+	left: 251px;
+	top: 14px;
+	overflow: visible;
+}
+#switch_bg_bp {
+	fill: rgba(186,66,66,1);
+}
+.switch_bg_bp {
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 34px;
+	left: 0px;
+	top: 0px;
+}
+#switch_bq {
+	fill: rgba(255,255,255,1);
+}
+.switch_bq {
+	position: absolute;
+	overflow: visible;
+	width: 29px;
+	height: 30px;
+	left: 24px;
+	top: 2px;
+}
+#icon_phone {
+	position: absolute;
+	width: 15px;
+	height: 16px;
+	left: 17px;
+	top: 22px;
+	overflow: visible;
+}
+#btn_5 {
+	position: absolute;
+	width: 322px;
+	height: 48px;
+	left: 0px;
+	top: 570px;
+	overflow: visible;
+}
+#bg_bt {
+	fill: rgba(255,255,255,0);
+}
+.bg_bt {
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+#icon_check {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.icon_check {
+	overflow: visible;
+	position: absolute;
+	width: 8.063px;
+	height: 5.789px;
+	left: 17.725px;
+	top: 22.232px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#title_manufacture {
+	left: 41px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+#manufacture {
+	left: 259px;
+	top: 16px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(170,170,170,1);
+	letter-spacing: 0.48px;
+}
+#btn_6 {
+	position: absolute;
+	width: 322px;
+	height: 48px;
+	left: 0px;
+	top: 619px;
+	overflow: visible;
+}
+#bg_by {
+	fill: rgba(255,255,255,0);
+}
+.bg_by {
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+#icon_check_bz {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.icon_check_bz {
+	overflow: visible;
+	position: absolute;
+	width: 8.063px;
+	height: 5.789px;
+	left: 17.725px;
+	top: 22.232px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#title_modelname {
+	left: 41px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+#modelname {
+	left: 222px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(170,170,170,1);
+	letter-spacing: 0.48px;
+}
+#btn_7 {
+	position: absolute;
+	width: 322px;
+	height: 48px;
+	left: 0px;
+	top: 667px;
+	overflow: visible;
+}
+#bg_b {
+	fill: rgba(255,255,255,0);
+}
+.bg_b {
+	position: absolute;
+	overflow: visible;
+	width: 322px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+#icon_check_b {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.icon_check_b {
+	overflow: visible;
+	position: absolute;
+	width: 8.063px;
+	height: 5.789px;
+	left: 17.725px;
+	top: 22.232px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#title_osver {
+	left: 42px;
+	top: 16px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.53px;
+}
+#osversion {
+	left: 259px;
+	top: 16px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(170,170,170,1);
+	letter-spacing: 0.48px;
+}
+#side_logo {
+	position: absolute;
+	width: 186px;
+	height: 97px;
+	left: 68px;
+	top: 97px;
+	overflow: visible;
+}
+#home {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#bg_ca {
+	fill: rgba(33,33,33,1);
+}
+.bg_ca {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+}
+#yellow_rect {
+	position: absolute;
+	width: 414px;
+	height: 289px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#bg_user_soldier_sub {
+	position: absolute;
+	width: 414px;
+	height: 55px;
+	left: 0px;
+	top: 234px;
+	overflow: visible;
+}
+#yellow_rect_cc {
+	fill: rgba(222,170,60,1);
+}
+.yellow_rect_cc {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 234px;
+	left: 0px;
+	top: 0px;
+}
+#install_date {
+	left: 70px;
+	top: 131px;
+	position: absolute;
+	overflow: visible;
+	width: 276px;
+	white-space: nowrap;
+	line-height: 37px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: AppleSDGothicNeoB00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.23px;
+}
+#block_date {
+	left: 70px;
+	top: 169px;
+	position: absolute;
+	overflow: visible;
+	width: 251px;
+	white-space: nowrap;
+	line-height: 37px;
+	margin-top: -6.5px;
+	text-align: left;
+	font-family: AppleSDGothicNeoB00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.23px;
+}
+#btn_menu {
+	position: absolute;
+	width: 50px;
+	height: 34px;
+	left: 25px;
+	top: 49px;
+	overflow: visible;
+}
+#rect_menu {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.rect_menu {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 34px;
+	left: 0px;
+	top: 0px;
+}
+#menu {
+	left: 12px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 27px;
+	white-space: nowrap;
+	line-height: 37px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.23px;
+}
+#mnsa_logo {
+	position: absolute;
+	width: 54px;
+	height: 44px;
+	left: 180px;
+	top: 44px;
+	overflow: visible;
+}
+#common_btn_alert {
+	position: absolute;
+	width: 41px;
+	height: 38px;
+	left: 353px;
+	top: 47px;
+	overflow: visible;
+}
+#camera_block {
+	position: absolute;
+	width: 203px;
+	height: 203px;
+	left: 106px;
+	top: 427px;
+	overflow: visible;
+}
+#blocked_date {
+	position: absolute;
+	width: 78px;
+	height: 44px;
+	left: 168px;
+	top: 565px;
+	overflow: visible;
+}
+#day {
+	left: 25%;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 26px;
+	white-space: nowrap;
+	line-height: 37px;
+	margin-top: -9.5px;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.23px;
+}
+#time {
+	left: 0px;
+	top: 20px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -7.5px;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.32px;
+}
+#progress_circle {
+	position: absolute;
+	width: 268px;
+	height: 268px;
+	left: 73px;
+	top: 394px;
+	overflow: visible;
+}
+#btn_allow {
+	position: absolute;
+	width: 374px;
+	height: 56px;
+	left: 20px;
+	top: 791px;
+	overflow: visible;
+}
+#rect_btn_allow {
+	fill: rgba(70,70,70,1);
+	stroke: rgba(54,54,54,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.rect_btn_allow {
+	position: absolute;
+	overflow: visible;
+	width: 374px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+}
+#txt_allow {
+	left: 147px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 82px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -9px;
+	text-align: left;
+	font-family: AppleSDGothicNeoB00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.32px;
+}
+#Version {
+	position: absolute;
+	width: 414px;
+	height: 38px;
+	left: 0px;
+	top: 858px;
+	overflow: visible;
+}
+#rect_version {
+	fill: rgba(23,23,23,1);
+}
+.rect_version {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 38px;
+	left: 0px;
+	top: 0px;
+}
+#version_text {
+	left: 160px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	line-height: 35px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(162,162,162,1);
+	letter-spacing: 0.32px;
+}
+#beacon {
+	position: absolute;
+	width: 414px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#bg_dim {
+	fill: rgba(0,0,0,0.502);
+}
+.bg_dim {
+	position: absolute;
+	overflow: visible;
+	width: 414px;
+	height: 896px;
+	left: 0px;
+	top: 0px;
+}
+#msg_box {
+	position: absolute;
+	width: 270px;
+	height: 205px;
+	left: 69px;
+	top: 362px;
+	overflow: visible;
+}
+#bg_msg {
+	fill: rgba(39,39,39,1);
+}
+.bg_msg {
+	position: absolute;
+	overflow: visible;
+	width: 270px;
+	height: 205px;
+	left: 0px;
+	top: 0px;
+}
+#lines {
+	position: absolute;
+	width: 50px;
+	height: 48px;
+	left: 110px;
+	top: 96px;
+	overflow: hidden;
+}
+#lines_0 {
+	position: absolute;
+	width: 6px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#l1 {
+	fill: rgba(178,145,71,1);
+}
+.l1 {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+#lines_1 {
+	position: absolute;
+	width: 6px;
+	height: 48px;
+	left: 11px;
+	top: 0px;
+	overflow: visible;
+}
+#l1_c {
+	fill: rgba(178,145,71,1);
+}
+.l1_c {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+#lines_2 {
+	position: absolute;
+	width: 6px;
+	height: 48px;
+	left: 22px;
+	top: 0px;
+	overflow: visible;
+}
+#l1_da {
+	fill: rgba(178,145,71,1);
+}
+.l1_da {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+#lines_3 {
+	position: absolute;
+	width: 6px;
+	height: 48px;
+	left: 33px;
+	top: 0px;
+	overflow: visible;
+}
+#l1_db {
+	fill: rgba(178,145,71,1);
+}
+.l1_db {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+#lines_4 {
+	position: absolute;
+	width: 6px;
+	height: 48px;
+	left: 44px;
+	top: 0px;
+	overflow: visible;
+}
+#l1_dc {
+	fill: rgba(178,145,71,1);
+}
+.l1_dc {
+	position: absolute;
+	overflow: visible;
+	width: 6px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+#title {
+	left: 95px;
+	top: 21px;
+	position: absolute;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	line-height: 37px;
+	margin-top: -10px;
+	text-align: left;
+	font-family: AppleSDGothicNeoB00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.23px;
+}
+#discription {
+	left: 23px;
+	top: 44px;
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	white-space: nowrap;
+	line-height: 37px;
+	margin-top: -12px;
+	text-align: left;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.07px;
+}
+#line {
+	fill: transparent;
+	stroke: rgba(104,103,104,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.line {
+	overflow: visible;
+	position: absolute;
+	width: 269px;
+	height: 1px;
+	left: 0.5px;
+	top: 160.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#btn_cancel {
+	position: absolute;
+	width: 270px;
+	height: 45px;
+	left: 0px;
+	top: 160px;
+	overflow: visible;
+}
+#cancel {
+	left: 120px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 31px;
+	white-space: nowrap;
+	line-height: 37px;
+	margin-top: -10px;
+	text-align: center;
+	font-family: AppleSDGothicNeoL00;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(90,145,247,1);
+	letter-spacing: 0.07px;
+}
+#btn_cancel_df {
+	fill: rgba(255,255,255,0);
+}
+.btn_cancel_df {
+	position: absolute;
+	overflow: visible;
+	width: 270px;
+	height: 45px;
+	left: 0px;
+	top: 0px;
+}
