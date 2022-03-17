@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="calc.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet"/>
+        <title>첫번째 동행 계산기</title>
+    </head>
+    <body>
+        <div id="center">
+            <div id="counter">0번째 계산</div>
+            <div style="margin-top: 20%;">
+                <input type="number" min="500" max="699" step="1" id="num_input" onkeyup="if(window.event.keyCode==13){calc();}">
+                <input id="submit" type="submit" onclick="calc()" value="">
+            </div>
+            <div id="result"></div>
+        </div>
+    </body>
+</html>
