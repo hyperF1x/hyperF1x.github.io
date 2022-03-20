@@ -216,9 +216,8 @@ function calc(){
         document.getElementById("result").innerText = '500~699사이의 값을 입력해주세요.';
         return;
     }
-
+    count++;    
     document_counter.innerText = count+'번째 계산';
-    count++;
 
     var num = parseInt(input)-500;
     const result = arr[num];
