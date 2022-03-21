@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>IFTTT 아이피타임 WOL</title>
+</head>
+<body>
+    <a href="http://192.168.0.1" target="_blank">공유기 설정페이지</a><br>
+    <br>
+    DDNS 주소 <input id="ddns_url" type="text" value="example.iptime.org:1234"><br>
+    아이디<input id="iptime_id" type="text" value="admin"><br>
+    비밀번호<input id="iptime_pw" type="password" value="1234"><br>
+    맥주소 <input id="mac_address" type="text" value="00-00-00-00-00-00"><br>
+    <input type="submit" onclick="result()">
+    <br>
+    <br>
+    <div id="result_url"></div>
+    <div id="result_auth"></div>
+</body>
+</html>
