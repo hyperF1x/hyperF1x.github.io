@@ -29,17 +29,17 @@ input{
     width: 80px;
     height: 50px;
     background-color: rgba(0,0,0,0);
-    background-image: url('./maple_first_companion_calc/img/btn_calc.png');
+    background-image: url('/webapps/maple_first_companion_calc/img/btn_calc.png');
     background-position:  50% 50%;
     background-size: contain;
     background-repeat: no-repeat;
     border: 0;
 }
 #submit:hover{
-    background-image: url('./maple_first_companion_calc/img/btn_calc_hover.png');
+    background-image: url('/webapps/maple_first_companion_calc/img/btn_calc_hover.png');
 }
 #submit:active{
-    background-image: url('./maple_first_companion_calc/img/btn_calc_clicked.png');
+    background-image: url('/webapps/maple_first_companion_calc/img/btn_calc_clicked.png');
 }
 #num_input{
     position: relative;
